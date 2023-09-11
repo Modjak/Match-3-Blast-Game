@@ -22,10 +22,12 @@ public class ReturnHome : MonoBehaviour
 
     public void LevelSelectionMenuClick()
     {
-        gridGameObject.SetActive(false);
-        canvas.sortingOrder = 120;
-        returnPanel.SetActive(true);
-        
+        if (gridGameObject.GetComponent<GameGrid>().mouseClickAllowed)
+        {
+            gridGameObject.SetActive(false);
+            canvas.sortingOrder = 120;
+            returnPanel.SetActive(true);
+        } 
     }
 
     public void NoClick()
