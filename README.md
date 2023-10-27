@@ -6,13 +6,13 @@ The Collapse/Blast mechanic is a gameplay feature commonly found in tile-matchin
 ## Game Screenshots
 
 
-![Level Selection Scene](images/level_selection_scene.png)
+<img src="images/level_selection_scene.png" alt="Level Scene" width="300" height="200">
 *Level Scene*
 
-![Game Scene](images/game_scene.png)
+<img src="images/game_scene.png" alt="Level Scene" width="300" height="200">
 *Game Scene*
 
-![Game Scene](images/click.png)
+<img src="images/click.png" alt="Level Scene" width="300" height="200">
 *Click and Blast Animation*
 
 
