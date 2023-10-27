@@ -1,7 +1,7 @@
 
 ## Game Mechanics
 
-The Collapse/Blast mechanic is a gameplay feature commonly found in tile-matching games. In these types of games, players are tasked with identifying clusters of blocks of the same color, and by tapping or clicking on these clusters, they eliminate the corresponding blocks from the game board. Subsequently, the empty spaces are refilled with the blocks stacked above them, and new blocks are generated to maintain the gameplay.
+The Collapse/Blast mechanic is commonly found in tile-matching games. In these types of games, players are tasked with identifying clusters of blocks of the same color, and by tapping or clicking on these clusters, they blast the corresponding blocks from the game board. Subsequently, the empty spaces are refilled with the blocks stacked above them, and new blocks are generated to maintain the gameplay.
 
 ## Game Screenshots
 
