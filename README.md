@@ -9,11 +9,11 @@ The Collapse/Blast mechanic is a gameplay feature commonly found in tile-matchin
 ![Level Selection Scene](images/level_selection_scene.png)
 *Level Scene*
 
-![Game Scene](images/games_cene.png)
+![Game Scene](images/game_scene.png)
 *Game Scene*
 
 ![Game Scene](images/click.png)
-*Click and Blast*
+*Click and Blast Animation*
 
 
 
@@ -31,6 +31,18 @@ Our game consists of two scenes: **GameScene** and **LevelSelectionScene**. The 
    - Threshold C should be greater than Threshold B, and Threshold B should be greater than Threshold A.
    - The number of rows in the grid must be greater than or equal to the number of columns.
    - At least two colors must be selected.
+
+**Icon Displays**
+We aim to make gameplay easier for players when identifying larger groups of blocks. To achieve this, we have implemented a system of different icons on blocks based on the size of the corresponding groups. Here are the rules:
+
+Initially, all blocks in a group display default icons.
+
+If a group contains more blocks than the threshold A, it will display the first icon.
+If a group contains  more blocks than the threshold B, it will display the second icon.
+If a group contains  more blocks than the threshold C, it will display the third icon.
+
+This system ensures that players can quickly identify the size of the block groups, improving their gaming experience.
+
 
 **Gameplay Interaction:**
 
