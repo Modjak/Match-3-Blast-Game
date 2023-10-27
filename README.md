@@ -5,21 +5,18 @@ The Collapse/Blast mechanic is a gameplay feature commonly found in tile-matchin
 
 ## Game Screenshots
 
+**Level Scene**
 
-<img src="images/level_selection_scene.png" alt="Level Scene" width="300" height="200">
-*Level Scene*
+<img src="images/level_selection_scene.png" alt="Level Scene" width="500" height="900">
 
-<img src="images/game_scene.png" alt="Level Scene" width="300" height="200">
-*Game Scene*
+**Game Scene**
 
-<img src="images/click.png" alt="Level Scene" width="300" height="200">
-*Click and Blast Animation*
+<img src="images/game_scene.png" alt="Level Scene" width="500" height="900">
 
+**Click and Blast Animation**
 
+<img src="images/click.png" alt="Level Scene" width="500" height="900">
 
-Certainly, here's a revised version of your text with improved English:
-
----
 
 **Game Overview:**
 
@@ -33,6 +30,7 @@ Our game consists of two scenes: **GameScene** and **LevelSelectionScene**. The 
    - At least two colors must be selected.
 
 **Icon Displays**
+
 We aim to make gameplay easier for players when identifying larger groups of blocks. To achieve this, we have implemented a system of different icons on blocks based on the size of the corresponding groups. Here are the rules:
 
 Initially, all blocks in a group display default icons.
@@ -54,4 +52,4 @@ We've organized our scripts into two categories:
 1. **Game Scripts**
 2. **Level Selection Scripts**
 
-Additionally, we utilize a static class to manage data for loading the Game Scene. This static class is reset each time players return to the Level Selection Scene, providing a seamless gaming experience.
+Additionally, we use a static class to manage data for loading the Game Scene. This static class is reset each time players return to the Level Selection Scene.
